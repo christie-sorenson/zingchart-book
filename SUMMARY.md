@@ -4,4 +4,5 @@
 * [First Chapter](chapter1.md)
 * [Tutorials](Tutorials)
    * [Custom Charts](Tutorials/custom_charts.md)
+   * Angular 2
 
