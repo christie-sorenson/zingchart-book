@@ -1,1 +1,8 @@
-{}
+{
+    "plugins": [
+        "exercises-quote-fix",
+        "jsfiddle",
+        "ace"
+    ],
+    "pluginsConfig": {}
+}
