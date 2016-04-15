@@ -2,7 +2,8 @@
     "plugins": [
         "exercises-quote-fix",
         "jsfiddle",
-        "ace"
+        "ace",
+        "zingchart"
     ],
     "pluginsConfig": {
       "jsfiddle":{
