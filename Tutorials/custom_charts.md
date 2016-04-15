@@ -63,27 +63,7 @@ zingchart.render({
 For all the details on updating your branding, check out our documentation on this topic at: http://www.zingchart.com/docs/getting-started/removing-zingchart-branding/
 
 {% zingchart %}
-var myConfig = {
-    "gui":{
-        "context-menu":{
-            "button":{
-                "visible":0
-                },
-            "custom-items":[
-                {
-                    "text":"Show Alert",
-                    "function":"zingAlert()",
-                    "id":"showAlert"
-                }
-            ]
-        },
-        "behaviors":[
-            {
-                "id":"showAlert",
-                "enabled":"all"
-            }
-        ]
-    },
+{
     "graphset":[
         {
     "type":"line",
@@ -103,5 +83,5 @@ var myConfig = {
 	]
 }
     ]
-};
+}
 {% endzingchart %}
