@@ -17,3 +17,11 @@ But ZingChart allows more customization beyond colors and sizing.
 The ZingChart logo appears as a watermark at the bottom-right corner of our charts. It appears by default on all unlicensed charts when loaded into the web browser.
 
 ![](../images/context-menu.gif)
+
+To remove the ZingChart logo watermark, you will need to buy a license key. Once you have your license key, set it in the `ZC.LICENSE` variable, e.g., 
+`ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9"]`.
+
+If you still see the watermark, make sure the key is placed before the render method. Also, double check that it is placed in every page that renders charts.
+
+### Custom Chart Context Menu
+In ZingChart, users can right-click on a chart to access a menu of extra options. We call this the context menu. By default, “About ZingChart” appears as the last item in the menu on all unlicensed charts. You’ll see this when your chart is loaded into the web browser.
