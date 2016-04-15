@@ -16,7 +16,7 @@ But ZingChart allows more customization beyond colors and sizing.
 
 The ZingChart logo appears as a watermark at the bottom-right corner of our charts. It appears by default on all unlicensed charts when loaded into the web browser.
 
-![](../images/context-menu.gif)
+![](../images/watermark.gif)
 
 To remove the ZingChart logo watermark, you will need to buy a license key. Once you have your license key, set it in the `ZC.LICENSE` variable, e.g., 
 `ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9"]`.
@@ -25,3 +25,18 @@ If you still see the watermark, make sure the key is placed before the render me
 
 ### Custom Chart Context Menu
 In ZingChart, users can right-click on a chart to access a menu of extra options. We call this the context menu. By default, “About ZingChart” appears as the last item in the menu on all unlicensed charts. You’ll see this when your chart is loaded into the web browser.
+
+![](../images/context-menu.gif)
+
+You need to buy a license key to remove the About ZingChart item that appears at the bottom of the context menu. Once you have your license key, set it in the `ZC.LICENSE` variable. For example, `ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9"]`.
+
+Besides removing “About ZingChart,” we offer more options for customizing the chart context menu.
+* Pre-existing context menu options can be removed
+* Custom options can also be added
+
+Customizing the context menu in your charts involves adding code beyond the standard chart JSON. Full details are available in the [context menu docs page](http://www.zingchart.com/docs/interactive-charts/customizing-context-menu/).
+
+One popular option is to add your own item. Use the “custom-items” array to define custom context menu items. Custom items will execute your own JavaScript functions when clicked.
+
+[](http://jsfiddle.net/mzq8rxkd/#tabs=html,result)
+
