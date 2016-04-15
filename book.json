@@ -4,5 +4,10 @@
         "jsfiddle",
         "ace"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+      "jsfiddle":{
+        "height":420,
+        "width": 720
+      }
+    }
 }
