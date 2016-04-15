@@ -38,5 +38,5 @@ Customizing the context menu in your charts involves adding code beyond the stan
 
 One popular option is to add your own item. Use the “custom-items” array to define custom context menu items. Custom items will execute your own JavaScript functions when clicked.
 
-[](http://jsfiddle.net/mzq8rxkd/#tabs=result,html,javascript,css)
+[](http://jsfiddle.net/mzq8rxkd/#menuColor=29A2CC&tabs=result,html,js,css)
 
