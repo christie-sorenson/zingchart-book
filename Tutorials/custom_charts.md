@@ -50,7 +50,7 @@ To remove or hide the ZingChart logo, go to the render method. Add a hideprogres
 
 To add your own logo, go to the render method. Add a `customprogresslogo` attribute, and provide an image URL, e.g., `customprogresslogo: 'http://www.zingchart.com/images/blueberry.jpg'`.
 
-```
+{% ace lang="javascript", edit=true %}
 zingchart.render({
   id : 'myChart',
   data : myConfig,
@@ -58,6 +58,6 @@ zingchart.render({
   width: 600,
   customprogresslogo: 'http://www.zingchart.com/images/blueberry.jpg'
 });
-```
+{% endace %}
 
 For all the details on updating your branding, check out our documentation on this topic at: http://www.zingchart.com/docs/getting-started/removing-zingchart-branding/
