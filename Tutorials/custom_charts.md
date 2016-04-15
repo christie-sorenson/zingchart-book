@@ -40,3 +40,24 @@ One popular option is to add your own item. Use the “custom-items” array to 
 
 [](http://jsfiddle.net/mzq8rxkd/#menuColor=29A2CC&tabs=result,html,js,css)
 
+### Custom Loading Screen
+
+The loading screen is what users see before a chart appears on the page. It is generally only visible with larger data sets, when the page needs more time for the chart to fully load. By default, the ZingChart logo appears on that screen. Users have the option of removing it or replacing it with a different image.
+
+![](../images/loading_screen.gif)
+
+To remove or hide the ZingChart logo, go to the render method. Add a hideprogresslogo attribute, and set the value to true.
+
+To add your own logo, go to the render method. Add a `customprogresslogo` attribute, and provide an image URL, e.g., `customprogresslogo: 'http://www.zingchart.com/images/blueberry.jpg'`.
+
+```
+zingchart.render({
+  id : 'myChart',
+  data : myConfig,
+  height: 400,
+  width: 600,
+  customprogresslogo: 'http://www.zingchart.com/images/blueberry.jpg'
+});
+```
+
+For all the details on updating your branding, check out our documentation on this topic at: http://www.zingchart.com/docs/getting-started/removing-zingchart-branding/
