@@ -1,15 +1,6 @@
 {
     "plugins": [
-        "exercises-quote-fix",
-        "jsfiddle",
-        "ace",
         "zingchart"
     ],
-    "pluginsConfig": {
-      "jsfiddle":{
-        "height":"420",
-        "width": "720",
-        "type": "frame"
-      }
-    }
+    "pluginsConfig": {}
 }
