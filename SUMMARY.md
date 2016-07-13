@@ -1,5 +1,5 @@
 # Summary
 
-* [Embedded Example](README.md)
+* [Embedded Example](embedded.md)
 * External Example
 
