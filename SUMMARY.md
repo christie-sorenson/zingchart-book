@@ -1,4 +1,4 @@
 # Summary
 
-* [Introduction](README.md)
+* [Embedded Example](README.md)
 
