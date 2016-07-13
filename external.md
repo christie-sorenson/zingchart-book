@@ -1,3 +1,3 @@
 # External Example
 
-{% zingchart src='./zingchart.json', width=700, height=200 %}{% endzingchart %}
+{% zingchart dataurl='./zingchart.json', width=700, height=200 %}{% endzingchart %}
