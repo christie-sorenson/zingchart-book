@@ -1,0 +1,46 @@
+{
+    "graphset":[
+        {
+            type: "bar",
+            "width":"33%",
+            "height":"100%",
+            "x":"1%",
+            "y":"1%",
+            series : [
+                {
+                    values : [35,42,67,89],
+                    "bar-width":"10%"
+                }
+            ]
+        },
+        {
+            type: "bar",
+            "width":"33%",
+            "height":"100%",
+            "x":"34%",
+            "y":"1%",
+            series : [
+                {
+                    values : [35,42,67,89],
+                    "bar-width":"100%"
+                }
+            ]
+        },
+        {
+            type: "bar",
+            "title":{
+                "text":"Just Right"
+            },
+            "width":"33%",
+            "height":"100%",
+            "x":"67%",
+            "y":"1%",
+            series : [
+                {
+                    values : [35,42,67,89],
+                    "bar-width":"80%"
+                }
+            ]
+        }
+    ]
+}
